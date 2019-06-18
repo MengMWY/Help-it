@@ -1,0 +1,58 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/pagetask/pagetask",
+    "pages/pagetask/viewtask/viewtask",
+    "pages/pagetask/viewtask/modifytask/modifytask",
+    "pages/pagetask/viewtask/acceptedtask/acceptedtask",
+    "pages/pagetask/viewtask/reporttask/reporttask",
+    "pages/pagetask/newtask/newtask",
+    "pages/pageaccount/pageaccount",
+    "pages/pageaccount/personalinfo/personalinfo",
+    "pages/pageaccount/personalinfo/modifyinfo/modifyinfo",
+    "pages/pageaccount/tasksAccepted/tasksAccepted",
+    "pages/pageaccount/tasksCompleted/tasksCompleted",
+    "pages/pageaccount/tasksSubmitted/tasksSubmitted",
+    "pages/pageaccount/tasksRequests/tasksRequests",
+    "pages/pageaccount/tasksRequests/requestsInfo/requestsInfo",
+    "pages/pagelinks/pagelinks",
+    "pages/pagelinks/viewlink/unilinks/viewlinkUni1",
+    "pages/pagelinks/viewlink/unilinks/viewlinkUni2",
+    "pages/pagelinks/viewlink/unilinks/viewlinkUni3",
+    "pages/pagelinks/viewlink/unilinks/viewlinkUni4",
+    "pages/pagelinks/viewlink/orglinks/viewlinkOrg1",
+    "pages/pagelinks/viewlink/orglinks/viewlinkOrg2",
+    "pages/pagelinks/viewlink/orglinks/viewlinkOrg3",
+    "pages/pagelinks/viewlink/orglinks/viewlinkOrg4"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFF",
+    "navigationBarTitleText": "Help-it",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true
+  },
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "backgroundColor": "#FFF",
+    "borderStyle": "black",
+    "color": "black",
+    "list": [
+      {
+        "iconPath": "/img/icon_2.jpg",
+        "pagePath": "pages/pagelinks/pagelinks",
+        "text": "Volunteering"
+      },
+      {
+        "iconPath": "/img/icon_3.jpg",
+        "pagePath": "pages/pagetask/pagetask",
+        "text": "Tasks"
+      },
+      {
+        "iconPath": "/img/icon_4.jpg",
+        "pagePath": "pages/pageaccount/pageaccount",
+        "text": "Account"
+      }
+    ]
+  }
+}
