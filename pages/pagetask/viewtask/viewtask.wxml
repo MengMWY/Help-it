@@ -1,0 +1,26 @@
+<!--pages/pagetask/viewtask/viewtask.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view class="info_style" wx:for="{{fields}}" wx:for-index="i" wx:for-item="field" wx:key="*this">
+  <text id="field_text">{{field}}</text>
+  <text id="value_text">{{field_values[i]}}\n</text>
+</view>
+
+<view wx:if="{{disabled=='false'}}">
+  <view wx:if="{{accepted=='0'}}">
+    <button class='button1_style' bindtap='bindAcceptTask'>ACCEPT</button>
+    <button class='button2_style' bindtap='bindReportTask'>REPORT</button>
+  </view>
+  <view wx:if="{{accepted=='1'}}">
+    <button class='button3_style' bindtap='bindContactInfo'>CONTACT INFO</button>
+    <button class='button2_style' bindtap='bindReportTask'>REPORT</button>
+  </view>
+</view>
+
+<view wx:if="{{disabled=='true'}}">
+  <button class='button1_style' bindtap='bindModifyTask'>MODIFY</button>
+</view>

@@ -1,0 +1,15 @@
+<!--pages/pageaccount/tasksRequests/tasksRequests.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view wx:for="{{titles}}" wx:key="*this" wx:for-index="i" wx:for-item="title">
+  <view class="area_style">
+    <image class="image_style" src='{{postit}}'></image>
+    <view class="date_style" bindtap='bindTask' data-nTask='{{i}}'>Date: {{date[i]}}</view>
+    <view class="title_text_style" bindtap='bindTask' data-nTask='{{i}}'>{{title}}</view>
+    <view class="text_style" bindtap='bindTask' data-nTask='{{i}}'>Number of requests: {{nrequests[i]}}</view>
+  </view>
+</view>

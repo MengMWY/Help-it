@@ -1,0 +1,91 @@
+/* pages/pagetask/viewtask/viewtask.wxss */
+
+.head_style {
+  width: 100%;
+  height: 100rpx;
+}
+
+.logo_style {
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  top: 30rpx;
+  left: 220rpx;
+}
+
+.title_style {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  text-shadow: 3rpx 2rpx rgba(0, 0, 0, 0.473);
+  position: absolute;
+  top: 50rpx;
+  left: 320rpx;
+  border-bottom: 2rpx solid black;
+}
+
+.info_style {
+  width: 80%;
+  line-height: 60rpx;
+  position: relative;
+  top: 40rpx;
+  left: 85rpx;
+}
+
+#field_text {
+  font-size: 35rpx;
+  font-style: italic;
+  font-family: Roboto;
+  letter-spacing: 1rpx;
+  color: rgb(17, 39, 85);
+  position: relative;
+  top: 30rpx;
+}
+
+#value_text {
+  font-size: 30rpx;
+  position: relative;
+  top: 30rpx;
+  left: 30rpx;
+}
+
+.button1_style {
+  padding: 10rpx 240rpx;
+  font-size: 25rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration-style: double;
+  color: white;
+  background-color: rgb(15, 83, 231);
+  border-radius: 50rpx;
+  position: absolute;
+  top: 950rpx;
+  left: 100rpx;
+}
+
+.button2_style {
+  padding: 10rpx 240rpx;
+  font-size: 25rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration-style: double;
+  color: white;
+  background-color: rgb(15, 83, 231);
+  border-radius: 50rpx;
+  position: absolute;
+  top: 1050rpx;
+  left: 100rpx;
+}
+
+.button3_style {
+  padding: 10rpx 190rpx;
+  font-size: 25rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration-style: double;
+  color: white;
+  background-color: rgb(15, 83, 231);
+  border-radius: 50rpx;
+  position: absolute;
+  top: 950rpx;
+  left: 100rpx;
+}

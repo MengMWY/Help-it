@@ -1,0 +1,63 @@
+/* pages/pagetask/viewtask/acceptedtask/acceptedtask.wxss */
+
+.head_style {
+  width: 100%;
+  height: 100rpx;
+}
+
+.logo_style {
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  top: 30rpx;
+  left: 160rpx;
+}
+
+.title_style {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  text-shadow: 3rpx 2rpx rgba(0, 0, 0, 0.473);
+  position: absolute;
+  top: 50rpx;
+  left: 260rpx;
+  border-bottom: 2rpx solid black;
+}
+
+.body_style {
+  line-height: 100rpx;
+  position: relative;
+  top: 60rpx;
+  left: 100rpx;
+}
+
+.field_style {
+  color: rgb(17, 39, 85);
+  font-size: 35rpx;
+  font-style: italic;
+  font-family: Roboto;
+  letter-spacing: 1rpx;
+  position: relative;
+  top: 30rpx;
+}
+
+.value_style {
+  font-size: 30rpx;
+  font-family: Roboto;
+  position: relative;
+  top: 30rpx;
+  left: 30rpx;
+}
+
+.button_style {
+  padding: 10rpx 240rpx;
+  font-size: 25rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration-style: double;
+  color: white;
+  background-color: rgb(15, 83, 231);
+  border-radius: 50rpx;
+  position: absolute;
+  top: 700rpx;
+  left: 100rpx;
+}

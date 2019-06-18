@@ -1,0 +1,6 @@
+<!--index.wxml-->
+
+<view class="logo_style" bindtap='tap'>
+  <image class="logo_image" src='{{src_logo}}' bindtap='tap'></image>
+</view>
+

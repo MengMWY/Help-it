@@ -1,0 +1,72 @@
+/* pages/pagelinks/viewlink/unilinks/viewlinkUni3.wxss */
+
+.head_style {
+  width: 100%;
+  height: 100rpx;
+}
+
+.logo_style {
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  top: 30rpx;
+  left: 130rpx;
+}
+.title_style {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  text-shadow: 3rpx 2rpx rgba(0, 0, 0, 0.473);
+  position: absolute;
+  top: 50rpx;
+  left: 230rpx;
+  border-bottom: 2rpx solid black;
+}
+
+.image_container {
+  width: 100%;
+  height: 350rpx;
+  position: relative;
+  top: 30rpx;
+}
+
+.image_style {
+  width: 60%;
+  height: 100%;
+  position: relative;
+  left: 150rpx;
+}
+
+.body_title {
+  width: 90%;
+  position: relative;
+  left: 30rpx;
+  top: 50rpx;
+}
+
+.body_description {
+  width: 90%;
+  position: relative;
+  left: 30rpx;
+  top: 70rpx;
+}
+
+.body_link {
+  width: 90%;
+  position: relative;
+  left: 30rpx;
+  top: 120rpx;
+}
+
+#field_style {
+  font-size: 30rpx;
+  font-style: italic;
+  font-family: Roboto;
+  color: rgb(23, 50, 110);
+}
+
+#value_style {
+  font-size: 25rpx;
+  font-family: Roboto;
+  position: relative;
+  left: 10rpx;  
+}

@@ -1,0 +1,60 @@
+<!--pages/pagelinks/pagelinks.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view style='display:block'>
+  <text class="title1">From Universities</text>
+</view>
+
+<scroll-view class="view1_style" scroll-x="true" style="width:100%;height:200px;white-space:nowrap;display:block;flex-direction:row;align-item:flex-center">
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;">
+    <navigator url="../pagelinks/viewlink/unilinks/viewlinkUni1">
+      <image style="width:100%;height:200px;" src="../../img/JobUni1.jpg"></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1">
+    <navigator url="../pagelinks/viewlink/unilinks/viewlinkUni2">
+      <image style="width:100%;height:200px" src="../../img/JobUni2.jpg "></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1">
+    <navigator url="../pagelinks/viewlink/unilinks/viewlinkUni3">
+      <image style="width:100%;height:200px;" src="../../img/JobUni3.jpg "></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1;flex-shrink:2">
+    <navigator url="../pagelinks/viewlink/unilinks/viewlinkUni4">
+      <image style="width:100%;height:200px" src="../../img/JobUni4.jpg "></image>
+    </navigator>
+  </view>
+</scroll-view>
+
+<view style='display:block'>
+  <text class="title2">From No-profit organizations</text>
+</view>
+
+<scroll-view class="view2_style" scroll-x="true" style="width:100%;height:200px;white-space:nowrap;display:block;flex-direction:row;align-item:flex-center">
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;">
+    <navigator url="../pagelinks/viewlink/orglinks/viewlinkOrg1">
+      <image style="width:100%;height:200px" src="../../img/JobOrg1.jpg"></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1">
+    <navigator url="../pagelinks/viewlink/orglinks/viewlinkOrg2">
+      <image style="width:100%;height:200px" src="../../img/JobOrg2.jpg "></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1">
+    <navigator url="../pagelinks/viewlink/orglinks/viewlinkOrg3">
+      <image style="width:100%;height:200px" src="../../img/JobOrg3.jpg "></image>
+    </navigator>
+  </view>
+  <view class="view_item" style="width:100%;height:200px;display:inline-block;flex-grow:1;flex-shrink:2">
+    <navigator url="../pagelinks/viewlink/orglinks/viewlinkOrg4">
+      <image style="width:100%;height:200px" src="../../img/JobOrg4.jpg "></image>
+    </navigator>
+  </view>
+</scroll-view>

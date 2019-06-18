@@ -1,0 +1,26 @@
+<!--pages/pagetask/newtask/newtask.wxml-->
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view>
+  <form class="form_style">
+    <text class="field_style">Date :</text>
+    <text id="date_style">{{todayDate}}\n</text>
+
+    <text class="field_style">Title</text>
+    <input bindinput='inputTitleTask' class="title_box" placeholder="Task title (max 18)" maxlength='18' placeholder-style="color:rgba(17, 38, 85, 0.664);" auto-focus/>
+
+    <text class="field_style">Description</text>
+    <textarea bindinput='inputDescription' id="description_box" placeholder="Task description (max 150)" maxlength='150'  placeholder-style="color:rgba(17, 38, 85, 0.664);" auto-focus></textarea>
+
+    <text class='duration_style'>Duration</text> 
+    <input bindinput='inputDurationTask' id="duration_box" placeholder='1'  placeholder-style="color:rgba(17, 38, 85, 0.664);" type="number" maxlength='1' auto-focus>days</input>
+    <text class="days_style">days</text>
+
+    <button bindtap='bindSubmitTask' class="button_style">SUBMIT</button>
+  </form>
+</view>
+
+

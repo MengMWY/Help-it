@@ -1,0 +1,24 @@
+<!--pages/pageaccount/pageaccount.wxml-->
+
+<view>
+  <image src="../../img/account.jpg" class='image_style'></image>
+</view>
+<view class="name_style">WenYong Meng</view>
+<view class="id_style">1756138</view>
+
+<view class="limit">
+  <text class="list_style" bindtap='bindInfo'>Personal informations</text> 
+</view>
+<view class="limit">
+  <text class="list_style" bindtap='bindTaskS'>Tasks I submitted</text>  
+</view>
+<view class="limit">
+  <text class="list_style" bindtap='bindTaskA'>Tasks I accepted</text>
+</view>
+<view class="limit">
+  <text class="list_style" bindtap='bindTaskD'>Task I completed</text>
+</view>
+<view class="limit">
+  <text class="list_style" bindtap='bindTaskR'>Requests received</text>
+</view>
+

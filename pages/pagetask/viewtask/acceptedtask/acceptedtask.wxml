@@ -1,0 +1,15 @@
+<!--pages/pagetask/viewtask/acceptedtask/acceptedtask.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view class="body_style">
+  <view wx:for="{{fields}}" wx:key='unique' wx:for-index="i" wx:for-item="field">
+    <text class="field_style">{{field}}</text>
+    <text class="value_style">{{fields_value[i]}}\n</text>
+  </view>
+</view>
+
+<button class="button_style" bindtap='bindDone'>Done</button>

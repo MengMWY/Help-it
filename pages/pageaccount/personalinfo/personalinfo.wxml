@@ -1,0 +1,18 @@
+<!--pages/pageaccount/personalinfo/personalinfo.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view>
+  <image src="../../../img/account.jpg" class='image_style'></image>
+</view>
+
+<view class="info_style" wx:for="{{fields}}" wx:for-index="i" wx:for-item="field_item">
+  <text id="field_text">{{field_item}}</text>
+  <text id="value_text">{{field_values[i]}}</text>
+</view>
+
+<button bindtap='bindModify' class="button1_style">MODIFY</button>
+<button bindtap='bindDone' class="button2_style">DONE</button>

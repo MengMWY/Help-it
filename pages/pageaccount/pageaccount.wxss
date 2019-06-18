@@ -1,0 +1,42 @@
+/* pages/pageaccount/pageaccount.wxss */
+
+.image_style {
+  width: 45%;
+  height: 320rpx;
+  position: relative;
+  top: 30rpx;
+  left: 220rpx;
+}
+
+.name_style {
+  font-size: 40rpx;
+  line-height: 50rpx;
+  color: rgb(23, 50, 110);
+  position: relative;
+  top: 50rpx;
+  left: 230rpx;
+}
+
+.id_style {
+  font-size: 40rpx;
+  line-height: 50rpx;
+  color: rgb(23, 50, 110);
+  position: relative;
+  top: 60rpx;
+  left: 300rpx;
+}
+
+.limit {
+  width: 90%;
+  border-bottom: 2rpx solid rgb(9, 12, 160);
+  color: rgb(23, 50, 110);
+  position: relative;
+  top: 100rpx;
+  left: 20rpx;
+}
+
+.list_style {
+  width: 90%;
+  font-size: 35rpx;
+  line-height: 70rpx;
+}

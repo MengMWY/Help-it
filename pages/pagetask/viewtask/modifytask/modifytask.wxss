@@ -1,0 +1,119 @@
+/* pages/pagetask/viewtask/modifytask/modifytask.wxss */
+
+.head_style {
+  width: 100%;
+  height: 100rpx;
+}
+
+.logo_style {
+  width: 80rpx;
+  height: 80rpx;
+  position: relative;
+  top: 30rpx;
+  left: 230rpx;
+}
+
+.title_style {
+  font-size: 25rpx;
+  letter-spacing: 3rpx;
+  text-shadow: 3rpx 2rpx rgba(0, 0, 0, 0.473);
+  border-bottom: 2rpx solid black;
+  position: absolute;
+  top: 50rpx;
+  left: 330rpx;
+}
+
+.form_style {
+  color: rgb(17, 39, 85);
+  position: relative;
+  top: 30rpx;
+  left: 100rpx;
+  line-height: 70rpx;
+}
+
+.field_style {
+  font-size: 35rpx;
+  font-style: italic;
+  font-family: Roboto;
+  position: relative;
+  top: 20rpx;
+}
+
+#date_style {
+  font-size: 35rpx;
+  font-family: Roboto;
+  position: relative;
+  left: 30rpx;
+  top: 20rpx;
+}
+
+.title_box {
+  width: 75%;
+  height: 80rpx;
+  font-family: Roboto;
+  box-sizing: border-box; 
+  border: 1rpx solid rgb(21, 49, 109);
+  border-radius: 6rpx; 
+  padding: 10rpx 15rpx; 
+  resize: none;
+  position: relative;
+  top: 20rpx;
+}
+
+#description_box {
+  width: 75%;
+  height: 400rpx;
+  font-family: Roboto;
+  box-sizing: border-box; 
+  border: 1rpx solid rgb(21, 49, 109);
+  border-radius: 6rpx; 
+  padding: 20rpx 15rpx; 
+  resize: none;
+  position: relative;
+  top: 20rpx;
+}
+
+.duration_style {
+  font-size: 35rpx;
+  font-style: italic;
+  font-family: Roboto;
+  position: relative;
+  top: 50rpx;
+}
+
+#duration_box {
+  width: 10%;
+  height: 70rpx;
+  font-family: Roboto;
+  box-sizing: border-box; 
+  border: 1rpx solid rgb(21, 49, 109);
+  border-radius: 6rpx; 
+  padding: 10rpx 15rpx; 
+  resize: none;
+  text-align: center;
+  position: relative;
+  top: -20rpx;
+  left: 170rpx
+}
+
+.days_style {
+  font-size: 30rpx;
+  font-style: italic;
+  font-family: Roboto;
+  position: relative;
+  top: -93rpx;
+  left: 270rpx;
+}
+
+.button_style {
+  padding: 10rpx 255rpx;
+  font-size: 25rpx;
+  font-family: Roboto;
+  font-weight: bold;
+  text-decoration-style: double;
+  color: white;
+  background-color: rgb(15, 83, 231);
+  border-radius: 50rpx;
+  position: absolute;
+  top: 20rpx;
+}

@@ -1,0 +1,23 @@
+<!--pages/pagetask/viewtask/modifytask/modifytask.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<form class="form_style">
+  <text class="field_style">New Date: </text>
+  <text id="date_style">{{field_values[0]}}\n</text>
+
+  <text class="field_style">Title:</text>
+  <input value='{{field_values[1]}}' style='color:rgb(17, 39, 85);' bindinput='inputTitleTask' class="title_box" maxlength='18' auto-focus/>
+
+  <text class="field_style">Description:</text>
+  <textarea value='{{field_values[2]}}' style='color:rgb(17, 39, 85);' bindinput='inputDescription' id="description_box" maxlength='150' auto-focus></textarea>
+
+  <text class='duration_style'>Duration:</text> 
+  <input value='{{field_values[3]}}' style='color:rgb(17, 39, 85);' bindinput='inputDurationTask' id="duration_box" type="number" maxlength='1' auto-focus/>
+  <text class="days_style">days</text>
+
+  <button bindtap='bindSaveTask' class="button_style">SAVE</button>
+</form>

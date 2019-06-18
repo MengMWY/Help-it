@@ -1,0 +1,11 @@
+<!--pages/pageaccount/personalinfo/modifyinfo/modifyinfo.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view class="body_style">
+  <text id="lineone">34029 Error: Administrator account!\n</text>
+  <text id="linetwo">[Personal informations of administrator's account cannot be changed!]</text>
+</view>

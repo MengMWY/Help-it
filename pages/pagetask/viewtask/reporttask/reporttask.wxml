@@ -1,0 +1,14 @@
+<!--pages/pagetask/viewtask/reporttask/reporttask.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view>
+  <text class="field_style">Motivation:</text>
+  <textarea style='color:rgb(17, 39, 85);' bindinput='inputMotivation' class="description_box" maxlength='150' auto-focus></textarea>
+</view>
+
+<button class='button_style' bindtap='bindReportTask'>REPORT</button>
+<button class='button2_style' bindtap='bindCancTask'>CANC</button>

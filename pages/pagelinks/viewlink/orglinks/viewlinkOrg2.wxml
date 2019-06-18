@@ -1,0 +1,23 @@
+<!--pages/pagelinks/viewlink/orglinks/viewlinkOrg2.wxml-->
+
+<view class="head_style">
+  <image class="logo_style" src='{{src_icon}}'></image>
+  <view class="title_style">{{page_title}}</view>
+</view>
+
+<view class='image_container'>
+  <image class="image_style" src='../../../../img/JobOrg2.jpg'></image>
+</view>
+
+<view class="body_title">
+  <text id="field_style">Title: </text>
+  <text id="value_style">{{title}}</text>
+</view>
+<view class="body_description">
+  <text id="field_style">Description: </text>
+  <text id="value_style">{{description}}</text>
+</view>
+<view class="body_link">
+  <text id="field_style">Link: </text>
+  <text selectable='true' id="value_style" style="text-decoration: underline; color: blue;">{{link}}</text>
+</view>
